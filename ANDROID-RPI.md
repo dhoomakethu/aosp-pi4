@@ -8,7 +8,7 @@ Project page - https://glodroid.github.io/
     ```
       mkdir -p android-rpi
       cd android-rpi
-      repo init -u https://android.googlesource.com/platform/manifest -b android-12.0.0_r27
+      repo init -u https://android.googlesource.com/platform/manifest -b android-12.1.0_r21
       git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b arpi-12
       repo sync
       source ./build/envsetup.sh
